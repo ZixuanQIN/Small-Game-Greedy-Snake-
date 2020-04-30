@@ -15,6 +15,9 @@ Please use conda environment to run python3 and install pygame.
 
 Run the game:  
 <b>python3 main.py</b>  
+
+Control:  
+use ↑↓←→ in your keyboard or WASD to control.  
 ***
 
 When You Play It:  
