@@ -288,6 +288,7 @@ while running:
 		locals()['body'+str(i)].draw()
 	
 
+	time.sleep(0.01)
 	pygame.display.update()
 
 running = True
@@ -303,6 +304,8 @@ while running:
 	sc = fontObj_score.render('Score: {:d}'.format(player.score), True, RED)
 	screen.blit(sc, [750, 20])
 	screen.blit(textSurfaceObj,textRectObj)
+
+	time.sleep(0.01)
 	pygame.display.update()
 
 	
